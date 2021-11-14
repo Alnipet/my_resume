@@ -11,20 +11,19 @@
 </head>
 <body>
 <header class="header">
-  <div class="header-upper"></div>
-  <div class="container header-inner">
-    <div class="header-photo-block">
-      <img class="header-photo" src="static/face.png"
+  <div class="header__inner container">
+    <div class="header__photo-block">
+      <img class="header__photo" src="static/face.png"
            alt="Фото Петрова Алексея на фоне входа на выставку Автоматизация и Промышленная электроника">
     </div>
-    <div class="short-info">
-      <h1 class="resume-name">Петров Алексей Николаевич</h1>
-      <p class="born-info">Мужчина, 35 лет, родился 7 июня 1986</p>
-      <p class="contact-info">
-        <a class="contact-link" href="tel:+79313694463">+7 (931) 369-44-63</a>
-        <a class="contact-link" href="mailto:a777petrov@gmail.com">a777petrov@gmail.com<span class="priority-contact"> — предпочитаемый способ связи</span></a>
+    <div class="header__short-info">
+      <h1 class="header__resume-name">Петров Алексей Николаевич</h1>
+      <p class="header__born-info">Мужчина, 35 лет, родился 7 июня 1986</p>
+      <p class="header__contact-info">
+        <a class="header__contact-link" href="tel:+79313694463">+7 (931) 369-44-63</a>
+        <a class="header__contact-link" href="mailto:a777petrov@gmail.com">a777petrov@gmail.com<span class="header__priority-contact"> — предпочитаемый способ связи</span></a>
       </p>
-      <p class="location-info">Проживает: Санкт-Петербург, м. Пионерская
+      <p class="header__location-info">Проживает: Санкт-Петербург, м. Пионерская
         <br>Гражданство: Россия, есть разрешение на работу: Россия
         <br>Не готов к переезду, готов к редким командировкам
       </p>
@@ -32,10 +31,10 @@
   </div>
 </header>
 <main>
-  <section class="container position">
+  <section class="position container">
     <h2 class="section-title">Желаемая должность и зарплата</h2>
-    <div class="position-title">
-      <p class="main-text position-name">Frontend-разработчик (junior)</p>
+    <div class="position__title">
+      <p class="position__name main-text">Frontend-разработчик (junior)</p>
     </div>
     <div class="section-text">
       Информационные технологии, интернет, телеком
@@ -49,19 +48,17 @@
       <br>Желательное время в пути до работы: не имеет значения
     </div>
   </section>
-  <section class="container experience">
+  <section class="experience container">
     <h2 class="section-title">Опыт работы — 13 лет 10 месяцев</h2>
     <div class="section-inner">
       <div class="date-periods">
         Ноябрь 2007 — настоящее время 13 лет 10 месяцев
       </div>
       <div class="institution">
-        <div class="experience-title">
-          <h3 class="main-text experience-name">Инжиниринговые компании</h3>
-        </div>
+        <h3 class="main-text">Инжиниринговые компании</h3>
         <div class="section-text">
-          <p class="experience-place"><span class="experience-place-contacts">Санкт-Петербург, </span><a class="website-link"
-                                                                                href="https://adiseng.ru/">adiseng.ru</a><br>
+          <p class="experience-place"><span class="experience-place__contacts">Санкт-Петербург, </span><a class="website-link"
+                                                                                                          href="https://adiseng.ru/">adiseng.ru</a><br>
             Информационные технологии, системная интеграция, интернет
           </p>
           <ul>
@@ -70,12 +67,12 @@
             </li>
           </ul>
           <p class="experience-position-name">Инженер по автоматизации</p>
-          <p>
+          <p class="section-text">
             Имею много нерелевантного веб-разработке опыта. Работал в нескольких инжиниринговых компаниях.
             Участвовал в реализации проектов по автоматизации технологических процессов, как в качестве
             инженера проекта, так и в качестве ГИПа и руководителя проекта:
           </p>
-          <ul>
+          <ul class="section-text">
             <li>Реконструкция автоматизированной системы управления компрессорными установками компании
               Praxair (г. Волгоград);
             </li>
@@ -93,7 +90,7 @@
               установками ТРК Гранд Каньон.
             </li>
           </ul>
-          <p>Разработал и поддерживал корпоративный сайт компании на CMS Wordpress (<a class="website"
+          <p class="section-text">Разработал и поддерживал корпоративный сайт компании на CMS Wordpress (<a class="website"
                                                                                        href="https://adiseng.ru/">https://adiseng.ru</a>)
           </p>
         </div>
@@ -101,31 +98,27 @@
 
     </div>
   </section>
-  <section class="container education">
+  <section class="education container">
     <h2 class="section-title">Образование</h2>
-    <div class="education-type">Высшее</div>
+    <div class="education__type">Высшее</div>
     <div class="section-inner">
       <div class="date-periods">
         2012
       </div>
       <div class="institution">
-        <div class="education-title">
-          <h3 class="main-text education-name">Волгоградский государственный аграрный университет, Волгоград</h3>
-        </div>
+        <h3 class="main-text">Волгоградский государственный аграрный университет, Волгоград</h3>
         <div class="section-text">
           Электрификация и автоматизация сельского хозяйства, Инженер
         </div>
       </div>
     </div>
-    <div class="education-type">Средне-специальное</div>
+    <div class="education__type">Средне-специальное</div>
     <div class="section-inner">
       <div class="date-periods">
         2005
       </div>
       <div class="institution">
-        <div class="education-title">
-          <h3 class="main-text education-name">Волгоградский энергетический колледж</h3>
-        </div>
+          <h3 class="main-text">Волгоградский энергетический колледж</h3>
         <div class="section-text">
           Электроснабжение промышленных предприятий, Техник
         </div>
@@ -139,32 +132,28 @@
         2019
       </div>
       <div class="institution">
-        <div class="courses-title">
-          <h3 class="main-text courses-name">ЦРПП</h3>
-        </div>
+          <h3 class="main-text">ЦРПП</h3>
         <div class="section-text">
           Учебный центр "Решение", Управление проектами
         </div>
       </div>
     </div>
   </section>
-  <section class="container el-certificates">
+  <section class="el-certificates container">
     <h2 class="section-title">Электронные сертификаты</h2>
     <div class="section-inner">
       <div class="date-periods">
         2020
       </div>
       <div class="institution">
-        <div class="el-certificates-title">
-          <h3 class="main-text el-certificates-name"></h3>
-        </div>
+        <h3 class="main-text"></h3>
         <a class="section-text" href="https://stepik.org/cert/348678">
           Программирование на Python (Bioinformatics Institute)
         </a>
       </div>
     </div>
   </section>
-  <section class="container key-skills">
+  <section class="key-skills container">
     <h2 class="section-title">Ключевые навыки</h2>
     <div class="section-inner">
       <div class="group-skills">
@@ -173,8 +162,8 @@
       <div class="skills">
         <div class="section-text">
           <div class="lang">
-            Русский <span class="level-lang">— Родной</span>
-            <br>Английский <span class="level-lang">— B1 — Средний</span>
+            Русский <span class="lang__level">— Родной</span>
+            <br>Английский <span class="lang__level">— B1 — Средний</span>
           </div>
         </div>
       </div>
@@ -184,64 +173,58 @@
         Навыки
       </div>
       <div class="skills">
-        <div class="section-text">
-          <div class="skill">
-            <ul class="skill-list">
-              <li class="skill-unit">HTML</li>
-              <li class="skill-unit">CSS</li>
-              <li class="skill-unit">JS</li>
-              <li class="skill-unit">Vue.js</li>
-              <li class="skill-unit">Git</li>
-              <li class="skill-unit">Python</li>
-              <li class="skill-unit">Django</li>
-              <li class="skill-unit">DRF</li>
-            </ul>
-          </div>
+        <div class="skill">
+          <ul class="skill-list section-text">
+            <li class="skill-list__unit">HTML</li>
+            <li class="skill-list__unit">CSS</li>
+            <li class="skill-list__unit">JS</li>
+            <li class="skill-list__unit">Vue.js</li>
+            <li class="skill-list__unit">Git</li>
+            <li class="skill-list__unit">Python</li>
+            <li class="skill-list__unit">Django</li>
+            <li class="skill-list__unit">DRF</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-  <section class="container about-myself">
+  <section class="about-myself container"> <!-- тут остановился -->
     <h2 class="section-title">Дополнительная информация</h2>
     <div class="section-inner">
       <div class="about">
         Обо мне
       </div>
       <div class="myself">
-        <div class="section-text">
-          <div class="about-myself-text">
-            <p>
-              Не имею опыта в коммерческой разработке, но участвовал в разработке нескольких личных проектов:
-              корпоративный сайт с интернет-магазином b2b (Django), тендерная площадка для производителей
-              НКУ (электрических шкафов) (DRF+Vue.js), сайт для столярной мастерской (DRF+Nuxt.js).<br>
-              Писал парсеры для сбора технических данных и цен с веб-приложений поставщиков промышленного
-              оборудования в рамках своих текущих профессиональных задач.
-              Делал и делаю макеты и верстаю под эти проекты.<br>
-            </p>
-            <p>
-              Работал с Django, DRF, Vue.js, Nuxt.js.<br>
-              Знаком с Docker.
-            </p>
-            <p>
-              Работаю с git и имею репозиторий на GitHub: <a href="https://github.com/Alnipet">Alnipet</a>
-            </p>
-            <p>
-              Испытываю удовольствие от процесса верстки и программирования.
-            </p>
-            <p>
-              Имею широкий кругозор, и на интервью готов показать его ширину.<br>
-              Справляюсь с большинством нестандартных задач.<br>
-              Легко нахожу общий язык с представителями различных профессий и социальных групп.<br>
-              Трудился в различных отраслях и принимал участие в реализации интересных проектов.
-              Прошел профессиональный путь от электромонтажника до руководителя проектов.<br>
-              Занимался предпринимательством, имею опыт общения с заказчиками, понимаю цели и проблемы
-              бизнеса, умею сложное объяснить просто.
-            </p>
-            <p>
-              По воскресеньям играю на ударных.
-            </p>
-          </div>
-        </div>
+        <p class="section-text">
+          Не имею опыта в коммерческой разработке, но участвовал в разработке нескольких личных проектов:
+          корпоративный сайт с интернет-магазином b2b (Django), тендерная площадка для производителей
+          НКУ (электрических шкафов) (DRF+Vue.js), сайт для столярной мастерской (DRF+Nuxt.js).<br>
+          Писал парсеры для сбора технических данных и цен с веб-приложений поставщиков промышленного
+          оборудования в рамках своих текущих профессиональных задач.
+          Делал и делаю макеты и верстаю под эти проекты.<br>
+        </p>
+        <p class="section-text">
+          Работал с Django, DRF, Vue.js, Nuxt.js.<br>
+          Знаком с Docker.
+        </p>
+        <p class="section-text">
+          Работаю с git и имею репозиторий на GitHub: <a href="https://github.com/Alnipet">Alnipet</a>
+        </p>
+        <p class="section-text">
+          Испытываю удовольствие от процесса верстки и программирования.
+        </p>
+        <p class="section-text">
+          Имею широкий кругозор, и на интервью готов показать его ширину.<br>
+          Справляюсь с большинством нестандартных задач.<br>
+          Легко нахожу общий язык с представителями различных профессий и социальных групп.<br>
+          Трудился в различных отраслях и принимал участие в реализации интересных проектов.
+          Прошел профессиональный путь от электромонтажника до руководителя проектов.<br>
+          Занимался предпринимательством, имею опыт общения с заказчиками, понимаю цели и проблемы
+          бизнеса, умею сложное объяснить просто.
+        </p>
+        <p class="section-text">
+          По воскресеньям играю на ударных.
+        </p>
       </div>
     </div>
   </section>
@@ -251,16 +234,16 @@
     <address class="sections-footer">
       <div class="social-networks">
         <div class="social-network">
-          <a href="https://github.com/Alnipet"><img class="social-icon icon-github" src="static/github.png"
+          <a href="https://github.com/Alnipet"><img class="social-network__icon icon-github" src="static/github.png"
                                                     alt="значок гитхаб"></a>
         </div>
         <div class="social-network">
-          <a href="https://www.instagram.com/_petrov.aleksey_"><img class="social-icon icon-instagram"
+          <a href="https://www.instagram.com/_petrov.aleksey_"><img class="social-network__icon icon-instagram"
                                                                     src="static/free-icon-instagram-social-network-logo-of-photo-camera-48898.png"
                                                                     alt="значок инстаграм"></a>
         </div>
         <div class="social-network">
-          <a href="https://vk.com/petrovaleshka"><img class="social-icon icon-vk"
+          <a href="https://vk.com/petrovaleshka"><img class="social-network__icon icon-vk"
                                                       src="static/free-icon-vk-social-logotype-48965.png"
                                                       alt="значок вконтакте"></a>
         </div>
